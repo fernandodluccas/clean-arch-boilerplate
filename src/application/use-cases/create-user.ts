@@ -1,4 +1,4 @@
-import { IUserRepository } from "../../domain/repositories/i-user-repository";
+import { IUserRepository } from "../../domain/repositories/user-repository";
 
 export class CreateUser {
     constructor(private userRepository: IUserRepository) { }
